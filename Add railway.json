@@ -1,2 +1,11 @@
-Konfigurasi build dan deploy untuk Railway. Mengatur command start n8n
-dan environment variables default (basic auth) di port 5678.
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "n8n start",
+    "healthcheckPath": "/",
+    "restartPolicyType": "ON_FAILURE",
+    "restartPolicyMaxRetries": 10
+  }
+}
