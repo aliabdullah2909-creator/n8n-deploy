@@ -1,0 +1,2 @@
+Konfigurasi build dan deploy untuk Railway. Mengatur command start n8n
+dan environment variables default (basic auth) di port 5678.
