@@ -1,0 +1,11 @@
+# Jangan upload file environment
+.env
+
+# Folder konfigurasi lokal n8n
+.n8n
+
+# File log
+*.log
+
+# File backup
+*.bak
